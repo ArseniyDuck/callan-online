@@ -3,7 +3,7 @@ import React from 'react';
 
 type TProps = { size: number };
 
-const Spinner = ({ size }: TProps) => {
+const Spinner: React.FC<TProps> = ({ size }) => {
    return <div className='spinner' style={{ width: size, height: size }}></div>;
 };
 
