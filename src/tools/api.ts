@@ -6,7 +6,7 @@ import { THandleError } from '../types/functions';
 
 const instance = axios.create({
    withCredentials: true,
-   baseURL: 'http://localhost:8000/',
+   baseURL: 'https://callan-online-backend.herokuapp.com/',
 })
 
 export const HomeWorkAPI = {
