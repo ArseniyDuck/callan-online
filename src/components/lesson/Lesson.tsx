@@ -70,7 +70,7 @@ const Lesson: React.FC<TProps> = ({fetchLesson, match: {params: {lessonNumber}},
                })
                }
                {/* if lesson has audiofile, show it */}
-               {props.audio && <audio className='lesson__audio' controls src={`http://localhost:8000${props.audio}`}></audio>}
+               {/* {props.audio && <audio className='lesson__audio' controls src={`http://localhost:8000${props.audio}`}></audio>} */}
             </>
             }
          </div>
