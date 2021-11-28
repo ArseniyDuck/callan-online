@@ -626,6 +626,10 @@ body._disble-scroll {
   row-gap: 20px;
 }
 
+.lesson__words-wrapper + .lesson__words-wrapper {
+  margin-top: 20px;
+}
+
 @media (max-width: 900px) {
   .lesson__words-wrapper {
     row-gap: calc(12.5px + 7.5 * ((100vw - 320px) / 580));
