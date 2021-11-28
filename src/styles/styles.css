@@ -634,6 +634,10 @@ body._disble-scroll {
   .lesson__words-wrapper {
     row-gap: calc(12.5px + 7.5 * ((100vw - 320px) / 580));
   }
+
+  .lesson__words-wrapper + .lesson__words-wrapper {
+    margin-top: calc(12.5px + 7.5 * ((100vw - 320px) / 580));
+  }
 }
 
 .lesson__words-wrapper_1-set {
